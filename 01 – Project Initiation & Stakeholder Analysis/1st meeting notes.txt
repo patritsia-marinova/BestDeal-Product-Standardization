@@ -1,0 +1,62 @@
+Vendors in the dataset: Manutan, Rexel, Isero, TechData, TU (TU/e) + an anonymized order history folder (files anoniem). This last one is sales data, historical order/sales data spanning several years. (suitable for trend and cross-sell analysis) 
+
+The data is live, not mocked (1GB & 6 zip files) 
+
+Spoiler: one supplier dataset is intentionally unusable. we are expected to identify which one as part of understanding the data 
+
+ 
+
+Assignment options (us to choose): 
+
+ 
+
+Option 1: Product Standardization 
+
+Problem: different suppliers use different units and minimum quantities for the same product (e.g., paper sold in packs of 500 vs. individual sheets). This makes webshop price comparison misleading. 
+
+Goal: standardize units/quantities across suppliers so prices can be meaningfully compared. Scope is limited to units and quantities, not product descriptions etc. 
+
+ 
+
+Option 2: Cross-Sell  
+
+Cross-sell: identify related products frequently bought together (e.g. whiteboard + markers) and make suggestions in the webshop 
+
+Based on anonymized historical order data, EAN (universal product number) can be used for matching. SKU (supplier-specific number) should NOT be used for cross-supplier comparison 
+
+ 
+
+Option 3: Undiscovered and seasonal trends 
+
+This was unclear to me. As I understood correctly, he said to make advertising by using AI to recognize patterns in the historical data, also using public resources. Especially focusing on lesser-known products' patterns for customers. It didn't sound appealing to me either tbh.. 
+
+ 
+
+Data & Technical Info 
+
+Products from different suppliers may have different category labels for the same item. 
+
+product characteristics/attributes should be used to identify similarity, not SKUs (supplier-specific number) 
+
+Mocking data is explicitly permitted as long as it helps understanding and presentation 
+
+Taking one or two specific product examples (e.g. Coca-Cola, laptop, TV) as a focus is encouraged to make findings more tangible 
+
+Use of AI agents (e.g., Claude) is acceptable; 
+
+the assignment scope is AI + ML + Data, not purely ML 
+
+If data is insufficient, the team should contact the mentor with specifics about what is missing 
+
+ 
+
+Fritz gave a couple tips: 
+
+use common sense and open-source references to determine recommended units (e.g., kilogram vs. gram for a microwave) 
+
+Be specific, no container words, speak clearly 
+
+Under promise, overdeliver 
+
+ 
+ 
