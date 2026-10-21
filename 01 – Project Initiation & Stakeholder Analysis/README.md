@@ -2,48 +2,64 @@
 
 ## Overview
 
-This folder contains the initial planning, stakeholder communication, and project preparation activities for our **BestDeal – AI Product Standardization** group project.
+This folder contains the initial project planning, stakeholder communication, and client research activities for our **BestDeal – AI Product Standardization** group project.
 
-The project focuses on improving how BestDeal processes supplier product information, particularly inconsistent quantities and units of measurement that make accurate price comparisons difficult.
+During this phase, our team focused on understanding BestDeal's business problem, gathering information from the client, establishing team agreements, and organising the project.
 
-During this phase, our team focused on understanding the client's business problem, gathering requirements, establishing team agreements, and organising the project before developing a technical solution.
+The main challenge identified was the inconsistency in product quantities and units of measurement across different suppliers, making accurate product and price comparisons difficult.
 
 ## Activities & Evidence
 
-### 1. Group Agreements
+### 1. [Group Agreements](https://github.com/patritsia-marinova/BestDeal-Product-Standardization/blob/main/01%20%E2%80%93%20Project%20Initiation%20%26%20Stakeholder%20Analysis/group%20agreements.pdf)
 
-Our team established agreements regarding responsibilities, communication, collaboration, and project expectations.
+Our team established agreements regarding communication, responsibilities, decision-making, attendance, and collaboration.
 
-I participated in reviewing and discussing these agreements to ensure everyone understood their responsibilities and how we would work together.
+I participated in reviewing and discussing these agreements to establish clear expectations for working together throughout the project.
 
-### 2. First Client Meeting Questions
+### 2. [First Client Meeting Questions](https://github.com/patritsia-marinova/BestDeal-Product-Standardization/blob/main/01%20%E2%80%93%20Project%20Initiation%20%26%20Stakeholder%20Analysis/first%20meeting%20questions.pdf)
 
-Before the first client meeting, I reviewed the project case and participated in brainstorming questions to better understand BestDeal's current processes, challenges, and expectations.
+Before the first client meeting, we reviewed the project case and prepared questions to better understand BestDeal's current processes, challenges, and expectations.
 
-These questions helped guide the discussion and identify information needed for further analysis.
+I contributed to brainstorming these questions with my group.
 
-### 3. First Client Meeting Notes
+### 3. [First Client Meeting Notes](https://github.com/patritsia-marinova/BestDeal-Product-Standardization/blob/main/01%20%E2%80%93%20Project%20Initiation%20%26%20Stakeholder%20Analysis/1st%20meeting%20notes.txt)
 
-During the client meeting, our team gathered information about BestDeal's existing supplier data processes and the challenges caused by inconsistent product information.
+During the first client meeting, our team gathered information about BestDeal's supplier datasets and the available project directions.
 
-I contributed to documenting the discussion alongside my group members.
+We discussed product standardisation, supplier-specific formats, and the challenges of comparing equivalent products.
 
-### 4. BestDeal Debrief
+The meeting helped us select **product quantity and unit standardisation** as the main project focus.
 
-Following the meeting, I took the initiative to compile the **BestDeal debrief**, bringing together the main findings, client expectations, and important discussion points.
+### 4. [BestDeal Debrief](https://github.com/patritsia-marinova/BestDeal-Product-Standardization/blob/main/01%20%E2%80%93%20Project%20Initiation%20%26%20Stakeholder%20Analysis/BestDeal%20debreif.pdf)
 
-This helped the team establish a shared understanding of the business problem and identify the next steps.
+Following the meeting, I took the initiative to prepare the BestDeal debrief, documenting the business problem, client expectations, project scope, and research direction.
 
-### 5. BestDeal Project Plan
+The document helped establish a shared understanding of the assignment and defined the main research question:
 
-Our team developed a project plan outlining the objectives, activities, responsibilities, and expected deliverables.
+**How can BestDeal standardise units and quantities across different supplier data feeds so that prices for equivalent products can be accurately compared in the webshop?**
 
-The tasks were divided among group members, and I contributed by reviewing the document for clarity, consistency, and alignment with the project's goals.
+### 5. [BestDeal Project Plan](https://github.com/patritsia-marinova/BestDeal-Product-Standardization/blob/main/01%20%E2%80%93%20Project%20Initiation%20%26%20Stakeholder%20Analysis/BestDeal%20project%20plan.pdf)
+
+Our team developed a project plan outlining the project objectives, research questions, activities, and expected deliverables.
+
+The work was divided among group members, and I contributed by reviewing the document for clarity, consistency, and alignment with the project's goals.
+
+### 6. [Second Client Meeting Notes](https://github.com/patritsia-marinova/BestDeal-Product-Standardization/blob/main/01%20%E2%80%93%20Project%20Initiation%20%26%20Stakeholder%20Analysis/2nd%20client%20meeting%20notes%20%28minutes%29TODO.pdf)
+
+During the second client meeting, our team presented its progress and received further clarification about BestDeal's existing supplier data workflow.
+
+The client explained that supplier information first enters a preprocessing system, where employees manually map and select data before transferring it to the PIM.
+
+We also discussed dataset exploration, standard units, supplier ordering requirements, and improvements to the proposed process diagrams and MoSCoW prioritisation.
+
+This feedback helped refine our understanding of the current process and the requirements for the proposed solution.
 
 ## Outcome
 
-This phase helped our team establish a clear understanding of BestDeal's business problem and organise our approach to the project.
+This phase helped our team establish a clearer understanding of BestDeal's business problem, confirm the project scope, and organise the next stages of development.
 
-Through stakeholder communication, meeting preparation, documentation, and project planning, I strengthened my skills in **business analysis, teamwork, stakeholder communication, and project organisation**.
+Through my contributions, I gained practical experience in **stakeholder communication, business analysis, meeting preparation, documentation, and project planning**.
 
-The information gathered during this phase provided the foundation for the **IST process modelling and bottleneck analysis** documented in the next folder.
+The information gathered during this phase provided the foundation for the **business process analysis, requirements engineering, and PIM research** documented in the following folders.
+
+**Project Status:** Ongoing – documents and findings may be updated as the project progresses.
