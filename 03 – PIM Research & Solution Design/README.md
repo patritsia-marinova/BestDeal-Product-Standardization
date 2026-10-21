@@ -1,47 +1,67 @@
-# 02 – Business Analysis & Requirements
+# 03 – PIM Research & Solution Design
 
 ## Overview
 
-This folder contains the business process analysis and requirements documentation for our **BestDeal – AI Product Standardization** group project.
+This folder contains the research and proposed solution designs for our **BestDeal – AI Product Standardization** group project.
 
-During this phase, our team focused on understanding BestDeal's existing supplier data workflow, identifying bottlenecks, and defining the requirements for an AI-supported product standardisation solution.
+During this phase, our team focused on investigating existing Product Information Management (PIM) systems and exploring how AI could improve the processing and standardisation of supplier product information.
 
-The main objective was to understand why inconsistent product quantities and units make price comparisons difficult and determine what the proposed solution needs to address.
+Building on the business process analysis and requirements, we developed proposed workflows to reduce manual data processing, standardise quantities and measurement units, and improve product price comparisons.
+
+The main objective was to translate the identified business challenges into a potential technical solution while considering BestDeal's existing systems and supplier-specific ordering requirements.
 
 ## Activities & Evidence
 
-### 1. [IST Process & Bottleneck Analysis](https://github.com/patritsia-marinova/BestDeal-Product-Standardization/blob/main/02%20%E2%80%93%20Business%20Analysis%20%26%20Requirements/IST%20%2B%20Bottlenecks%20BestDealv2.pdf)
+### 1. [Existing PIM Systems Research](https://github.com/patritsia-marinova/BestDeal-Product-Standardization/blob/main/03%20%E2%80%93%20PIM%20Research%20%26%20Solution%20Design/Existing%20PIM%20Systems%20Research%20%28BestDeal%29.pdf)
 
-Together with Jeveria, I developed the **IST process diagram** to visualise BestDeal's current supplier data management workflow.
+Our team investigated existing PIM systems, including **Akeneo and Pimcore**, to understand how product information is imported, managed, transformed, and stored.
 
-We mapped how supplier product information moves through the existing process, from receiving supplier feeds and preprocessing the data to transferring information into the PIM and displaying it in the webshop.
+The research focused on how these systems support product attributes, measurement units, data mapping, and standardisation.
 
-We also identified bottlenecks, including:
+We also explored how an AI-supported solution could potentially be introduced into the existing workflow before product information is transferred to the PIM.
 
-- Different supplier data formats and measurement units.
-- Manual mapping and checking of product information.
-- Inconsistent product quantities that make price comparisons difficult.
-- Time-consuming processing caused by limited automation.
+This research helped us understand the available approaches and identify considerations for integrating product standardisation into BestDeal's current data management process.
 
-This analysis helped us understand where improvements could be introduced and provided a starting point for designing the proposed automated workflow.
+### 2. [Proposed PIM Workflow with Standardization](https://github.com/patritsia-marinova/BestDeal-Product-Standardization/blob/main/03%20%E2%80%93%20PIM%20Research%20%26%20Solution%20Design/problemsolution-v2.png)
 
-### 2. [BestDeal Requirements](https://github.com/patritsia-marinova/BestDeal-Product-Standardization/blob/main/02%20%E2%80%93%20Business%20Analysis%20%26%20Requirements/BestDeal%20Requirements.pdf)
+Based on the identified business problem and initial research, our team developed a proposed workflow showing how supplier product information could be standardised before entering the PIM.
 
-Based on the client meetings and business process analysis, our team documented the requirements for the proposed standardisation solution.
+The workflow illustrates how an AI-supported solution could:
 
-The requirements focus on ensuring that product quantities and measurement units can be standardised across different supplier datasets while maintaining the original supplier information.
+- Receive product information from suppliers using different data formats.
+- Identify and map relevant product attributes.
+- Recognise quantities and units of measurement.
+- Convert measurements into consistent units for product comparison.
+- Include human validation and manual handling when predictions are uncertain.
+- Transfer the standardised information to the PIM while preserving original supplier ordering details.
 
-Important considerations include identifying equivalent products, supporting unit conversions, improving price comparison accuracy, and integrating the solution with BestDeal's existing data management process.
+The proposed workflow helped us visualise where automation could be introduced and how the solution might improve the consistency of product information.
 
-This document helped translate the business problem into requirements that can guide the technical development of the solution.
+### 3. [SOLL Process – Proposed Automated Workflow](https://github.com/patritsia-marinova/BestDeal-Product-Standardization/blob/main/03%20%E2%80%93%20PIM%20Research%20%26%20Solution%20Design/SOLL%20C2Value.png)
 
-### 3. [MoSCoW Prioritization](https://github.com/patritsia-marinova/BestDeal-Product-Standardization/blob/main/02%20%E2%80%93%20Business%20Analysis%20%26%20Requirements/MoSCoW%20Prioritization%20%28BestDeal%29.pdf)
+Our team developed a **SOLL process diagram** to visualise the desired future state of BestDeal's supplier data management process.
 
-Our team used the **MoSCoW prioritisation method** to distinguish between essential requirements and additional functionality.
+Compared with the existing IST process, the proposed workflow introduces AI-supported automation to reduce manual product mapping and standardisation activities.
 
-The prioritisation focuses on:
+The SOLL process includes:
 
-- **Must Have:** Standardising quantities and units, addressing inconsistent supplier data, preserving original ordering information, and supporting accurate price comparisons.
-- **Should Have:** Identifying equivalent products using EAN codes, supporting unit conversions, and evaluating different standardisation approaches.
-- **Could Have:** Anomaly detection, hybrid rule-based and AI approaches, and manual validation for uncertain predictions.
-- **Won't Have (
+- Receiving and preprocessing supplier data.
+- AI-supported mapping of product information.
+- Automated standardisation of quantities and measurement units.
+- Human validation where necessary.
+- Transferring processed information to the PIM.
+- Making standardised product information available in the webshop.
+
+This diagram demonstrates how the proposed solution could address the bottlenecks identified during the business analysis phase.
+
+## Outcome
+
+This phase helped our team connect the findings from the **business process analysis and requirements** with potential technical approaches for improving BestDeal's supplier data workflow.
+
+The PIM research provided insight into existing product information management systems, while the proposed workflow and SOLL diagram helped visualise how AI-supported standardisation could be introduced.
+
+Through this phase, I am developing a better understanding of **how business requirements, process improvements, and technical solutions connect within an organisation**.
+
+The proposed designs provide a foundation for further data exploration, technical feasibility assessment, and eventual AI/ML prototype development.
+
+**Project Status:** Ongoing – these workflows represent proposed solutions rather than implemented functionality. They may be updated following client feedback, technical investigation, and model evaluation.
